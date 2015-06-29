@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0DDD8AE91B3D5B66005FCDC5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DDD8AE81B3D5B66005FCDC5 /* ViewController.m */; };
 		99A0A1831B3C555B00D7173F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 99A0A1821B3C555B00D7173F /* main.m */; };
 		99A0A1861B3C555B00D7173F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 99A0A1851B3C555B00D7173F /* AppDelegate.m */; };
-		99A0A1891B3C555B00D7173F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99A0A1881B3C555B00D7173F /* ViewController.m */; };
 		99A0A18C1B3C555B00D7173F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99A0A18A1B3C555B00D7173F /* Main.storyboard */; };
 		99A0A18E1B3C555B00D7173F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99A0A18D1B3C555B00D7173F /* Images.xcassets */; };
 		99A0A1911B3C555B00D7173F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99A0A18F1B3C555B00D7173F /* LaunchScreen.xib */; };
 		99A0A19D1B3C555B00D7173F /* downloadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99A0A19C1B3C555B00D7173F /* downloadTests.m */; };
+		99A0A1A81B3C59A000D7173F /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99A0A1A71B3C59A000D7173F /* TableViewController.m */; };
+		99A0A1AD1B3C5BF300D7173F /* DownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 99A0A1AA1B3C5BF300D7173F /* DownloadManager.m */; };
+		99A0A1AE1B3C5BF300D7173F /* DownloadOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 99A0A1AC1B3C5BF300D7173F /* DownloadOperation.m */; };
+		99A0A1B61B3C5D4100D7173F /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 99A0A1B51B3C5D4100D7173F /* TableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +31,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0DDD8AE71B3D5B66005FCDC5 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0DDD8AE81B3D5B66005FCDC5 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		99A0A17D1B3C555B00D7173F /* download.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = download.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99A0A1811B3C555B00D7173F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		99A0A1821B3C555B00D7173F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		99A0A1841B3C555B00D7173F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		99A0A1851B3C555B00D7173F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		99A0A1871B3C555B00D7173F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		99A0A1881B3C555B00D7173F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		99A0A18B1B3C555B00D7173F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		99A0A18D1B3C555B00D7173F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		99A0A1901B3C555B00D7173F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		99A0A1961B3C555B00D7173F /* downloadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = downloadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		99A0A19B1B3C555B00D7173F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		99A0A19C1B3C555B00D7173F /* downloadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = downloadTests.m; sourceTree = "<group>"; };
+		99A0A1A61B3C59A000D7173F /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		99A0A1A71B3C59A000D7173F /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		99A0A1A91B3C5BF300D7173F /* DownloadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadManager.h; sourceTree = "<group>"; };
+		99A0A1AA1B3C5BF300D7173F /* DownloadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadManager.m; sourceTree = "<group>"; };
+		99A0A1AB1B3C5BF300D7173F /* DownloadOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadOperation.h; sourceTree = "<group>"; };
+		99A0A1AC1B3C5BF300D7173F /* DownloadOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadOperation.m; sourceTree = "<group>"; };
+		99A0A1B41B3C5D4100D7173F /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		99A0A1B51B3C5D4100D7173F /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +93,19 @@
 		99A0A17F1B3C555B00D7173F /* download */ = {
 			isa = PBXGroup;
 			children = (
+				99A0A1A91B3C5BF300D7173F /* DownloadManager.h */,
+				99A0A1AA1B3C5BF300D7173F /* DownloadManager.m */,
+				99A0A1AB1B3C5BF300D7173F /* DownloadOperation.h */,
+				99A0A1AC1B3C5BF300D7173F /* DownloadOperation.m */,
 				99A0A1841B3C555B00D7173F /* AppDelegate.h */,
 				99A0A1851B3C555B00D7173F /* AppDelegate.m */,
-				99A0A1871B3C555B00D7173F /* ViewController.h */,
-				99A0A1881B3C555B00D7173F /* ViewController.m */,
 				99A0A18A1B3C555B00D7173F /* Main.storyboard */,
+				0DDD8AE71B3D5B66005FCDC5 /* ViewController.h */,
+				0DDD8AE81B3D5B66005FCDC5 /* ViewController.m */,
+				99A0A1A61B3C59A000D7173F /* TableViewController.h */,
+				99A0A1A71B3C59A000D7173F /* TableViewController.m */,
+				99A0A1B41B3C5D4100D7173F /* TableViewCell.h */,
+				99A0A1B51B3C5D4100D7173F /* TableViewCell.m */,
 				99A0A18D1B3C555B00D7173F /* Images.xcassets */,
 				99A0A18F1B3C555B00D7173F /* LaunchScreen.xib */,
 				99A0A1801B3C555B00D7173F /* Supporting Files */,
@@ -219,9 +239,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99A0A1891B3C555B00D7173F /* ViewController.m in Sources */,
+				0DDD8AE91B3D5B66005FCDC5 /* ViewController.m in Sources */,
+				99A0A1B61B3C5D4100D7173F /* TableViewCell.m in Sources */,
 				99A0A1861B3C555B00D7173F /* AppDelegate.m in Sources */,
+				99A0A1AE1B3C5BF300D7173F /* DownloadOperation.m in Sources */,
+				99A0A1A81B3C59A000D7173F /* TableViewController.m in Sources */,
 				99A0A1831B3C555B00D7173F /* main.m in Sources */,
+				99A0A1AD1B3C5BF300D7173F /* DownloadManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +440,7 @@
 				99A0A1A21B3C555B00D7173F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		99A0A1A31B3C555B00D7173F /* Build configuration list for PBXNativeTarget "downloadTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +449,7 @@
 				99A0A1A51B3C555B00D7173F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
